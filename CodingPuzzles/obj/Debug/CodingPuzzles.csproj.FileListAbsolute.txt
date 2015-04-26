@@ -1,0 +1,6 @@
+c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\bin\Debug\CodingPuzzles.exe.config
+c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\obj\Debug\CodingPuzzles.csprojResolveAssemblyReference.cache
+c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\bin\Debug\CodingPuzzles.exe
+c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\bin\Debug\CodingPuzzles.pdb
+c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\obj\Debug\CodingPuzzles.exe
+c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\obj\Debug\CodingPuzzles.pdb
