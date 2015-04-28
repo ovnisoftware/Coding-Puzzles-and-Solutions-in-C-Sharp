@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factorial.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Two_Stack_Queue.cs" />
     <Compile Include="Program.cs" />
