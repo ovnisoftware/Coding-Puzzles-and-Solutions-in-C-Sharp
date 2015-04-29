@@ -35,9 +35,7 @@ namespace CodingPuzzles
                 //in the for loop the, the loop will not loop the necessary number of times
                 int count = stack1.Count;
                 for (int i = 0; i < count; i++)
-                {
                     stack2.Push((string)stack1.Pop());
-                }
                 
                 returnString = (string)stack2.Pop();
 
@@ -47,9 +45,7 @@ namespace CodingPuzzles
                     //in the for loop the, the loop will not loop the necessary number of times
                     int count2 = stack2.Count;
                     for (int i = 0; i < count2; i++)
-                    {
                         stack1.Push((string)stack2.Pop());
-                    }
                 }
             }
             else
