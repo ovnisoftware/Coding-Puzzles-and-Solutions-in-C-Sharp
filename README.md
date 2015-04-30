@@ -14,9 +14,10 @@ Here's a list of the .cs files and their associated puzzle.
 3. Factorial - Write a program that calculates the factorial of a given number.  Ex. factorial of 4 is (4 * 3 * 2 * 1 ) = 24
  - Factorial.cs
 
-4. Recursive Factorial - Write a program that calculates the factorial of a given number using recursion.  The myCodeSchool Youtube channel has a good explanation of recursive factorial in C++ here: 
-
- - https://www.youtube.com/watch?v=_OmRGjbyzno
+4. Recursive Factorial - Write a program that calculates the factorial of a given number using recursion.
  - Factorial_Recursive.cs
+
+5. Write a function to return the maximum value stored in an array of non-negative integers
+ - Max_Value_Of_Array.cs
 
 Please let me know if you find any errors in the solutions.
