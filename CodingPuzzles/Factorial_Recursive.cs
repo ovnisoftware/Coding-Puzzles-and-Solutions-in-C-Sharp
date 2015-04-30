@@ -5,14 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CodingPuzzles
-{
+{   
+    //Write a recursive method that returns the factorial of a given integer
+    //0! = 1
+    //1! = 1
+    //Good explanation of recursive factorial in C++: https://www.youtube.com/watch?v=_OmRGjbyzno
+    //Thanks myCodeSchool channel on Youtube!
     public static class Factorial_Recursive
     {
-        //Write a recursive method that returns the factorial of a given integer
-        //0! = 1
-        //1! = 1
-        //Good explanation of recursive factorial in C++: https://www.youtube.com/watch?v=_OmRGjbyzno
-        //Thanks myCodeSchool channel on Youtube!
         public static int Factorial(int x)
         {
             //Base case
