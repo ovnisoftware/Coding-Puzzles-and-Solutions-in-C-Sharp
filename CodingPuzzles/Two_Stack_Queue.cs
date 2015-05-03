@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//Create a queue with two stacks
-//The queue will holds string elements
-//A stack is LIFO (Last in, First out)
-//A queue is FIFO (First in, First out)
 namespace CodingPuzzles
-{
+{   
+    //Create a queue with two stacks
+    //The queue will holds string elements
+    //A stack is LIFO (Last in, First out)
+    //A queue is FIFO (First in, First out)
     public class Two_Stack_Queue
     {
         //Declare two stacks

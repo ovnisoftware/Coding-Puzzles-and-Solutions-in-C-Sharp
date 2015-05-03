@@ -44,6 +44,7 @@
     <Compile Include="Factorial_Iterative.cs" />
     <Compile Include="Factorial_Recursive.cs" />
     <Compile Include="Fibonacci_Iterative.cs" />
+    <Compile Include="Fibonacci_Recursive.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Max_Value_Of_Array.cs" />
     <Compile Include="Two_Stack_Queue.cs" />
