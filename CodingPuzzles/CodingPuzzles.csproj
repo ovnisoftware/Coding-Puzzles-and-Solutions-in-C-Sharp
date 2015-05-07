@@ -47,6 +47,7 @@
     <Compile Include="Fibonacci_Recursive.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Max_Value_Of_Array.cs" />
+    <Compile Include="Reverse_Stack.cs" />
     <Compile Include="Two_Stack_Queue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
