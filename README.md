@@ -26,4 +26,7 @@ Here's a list of the .cs files and their associated puzzle.
 7. Write a function that prints the nth number in the Fibonacci Sequence using recursion
  - Fibonacci_Recursive.cs
 
+8. Reverse a stack
+ - Reverse_Stack.cs
+
 Please let me know if you find any errors in the solutions.
