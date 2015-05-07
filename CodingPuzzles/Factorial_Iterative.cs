@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodingPuzzles
 {
-    //Write a function to calculate the factorial of a given integer
+    //Write a function to calculate the factorial of a given integer iteratively
     public static class Factorial
     {
         public static int FactorialCalculation(int a)
@@ -25,6 +25,20 @@ namespace CodingPuzzles
             }
             else
                 return -100;
+        }
+
+        //This is a little more concise version
+        public static int factorial(int x)
+        {
+            int fib = 1;
+            
+            if (x < 0)
+                return -1;
+
+            for (int i = 1; i <= x; i++)
+                fib = fib * i;
+
+            return fib;
         }
         ////Call this in Program.cs to test
         //Console.WriteLine(Factorial.FactorialCalculation(6));
