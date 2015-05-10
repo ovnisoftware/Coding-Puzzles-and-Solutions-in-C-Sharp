@@ -29,4 +29,7 @@ Here's a list of the .cs files and their associated puzzle.
 8. Reverse a stack
  - Reverse_Stack.cs
 
+9. Write a function to determine if a given number is prime 
+ - Check_Prime.cs
+
 Please let me know if you find any errors in the solutions.
