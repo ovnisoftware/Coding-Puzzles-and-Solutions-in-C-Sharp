@@ -11,7 +11,7 @@ namespace CodingPuzzles
     {
         static void Main(string[] args)
         {
-
+            Console.WriteLine(Check_Prime.IsPrime(13));
         }
     }
 }
