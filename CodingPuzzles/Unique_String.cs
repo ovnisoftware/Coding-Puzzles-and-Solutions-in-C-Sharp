@@ -26,5 +26,24 @@ namespace CodingPuzzles
             }
             return true;
         }
+
+        //Compares each character to every other character without using an additional data structure
+        public static bool IsUnique2(string s)
+        {
+            string temp1 = "";
+            string temp2 = "";
+
+            for (int i = 0; i < s.Length; i++)
+            {
+                temp1 = s.Substring(i, 1);
+                for (int k = 0; k < s.Length; k++)
+                {
+                    temp2 = s.Substring(k, 1);
+                    if (temp1 != temp2)
+                        return false;
+                }
+            }
+            return true;
+        }
     }
 }
