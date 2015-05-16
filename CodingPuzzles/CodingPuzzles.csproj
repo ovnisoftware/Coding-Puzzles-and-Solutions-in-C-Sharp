@@ -46,6 +46,7 @@
     <Compile Include="Factorial_Recursive.cs" />
     <Compile Include="Fibonacci_Iterative.cs" />
     <Compile Include="Fibonacci_Recursive.cs" />
+    <Compile Include="Find_Uncoupled_Ints.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Max_Value_Of_Array.cs" />
     <Compile Include="Reverse_Stack.cs" />
