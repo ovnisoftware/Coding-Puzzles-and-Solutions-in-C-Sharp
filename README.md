@@ -38,4 +38,10 @@ Here's a list of the .cs files and their associated puzzle.
 11. Write a function that reverses an array of integers.
  - Reverse_Array.cs
 
+10. Implement an algorithm to determine if a string has all unique characters
+ - Unique_String.cs
+
+11. Find the uncoupled integer in a given array
+ - Find_Uncoupled_Int.cs
+
 Please let me know if you find any errors in the solutions.
