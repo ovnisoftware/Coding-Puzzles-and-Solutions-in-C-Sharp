@@ -32,7 +32,10 @@ Here's a list of the .cs files and their associated puzzle.
 9. Write a function to determine if a given number is prime 
  - Check_Prime.cs
 
-10. Implement an algorithm to determine if a string has all unique characters.
+10. Write a function to determine if a string has all unique characters.
  - Unique_String.cs
+
+11. Write a function that reverses an array of integers.
+ - Reverse_Array.cs
 
 Please let me know if you find any errors in the solutions.
