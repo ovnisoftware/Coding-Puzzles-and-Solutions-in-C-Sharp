@@ -41,4 +41,7 @@ Here's a list of the .cs files and their associated puzzle.
 12. Write a function that reverses an array of integers.
  - Reverse_Array.cs
 
+13. Write a function to reverse a string using a stack
+ - Reverse_String_Using_Stack.cs
+
 Please let me know if you find any errors in the solutions.
