@@ -44,4 +44,7 @@ Here's a list of the .cs files and their associated puzzle.
 13. Write a function to reverse a string using a stack
  - Reverse_String_Using_Stack.cs
 
+14. Write a function to determine if a string is a palindrome
+ - Is_Palindrome.cs
+
 Please let me know if you find any errors in the solutions.
