@@ -47,4 +47,7 @@ Here's a list of the .cs files and their associated puzzle.
 14. Write a function to determine if a string is a palindrome
  - Is_Palindrome.cs
 
+15. Write a function to swap the min and max element in an integer array
+ - Min_Max_Array_Swap.cs
+
 Please let me know if you find any errors in the solutions.
