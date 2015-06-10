@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodingPuzzles
+{
+    //Write a method to swap the min and max element in an integer array
+    //Source: Cracking Coding Interview p. 58
+    public static class Min_Max_Array_Swap
+    {
+        public static void MinMaxSwap(int[] input)
+        {
+            if (input.Length == 0)
+                return;
+
+            int maxPos = 0;
+            int minPos = 0;
+            int valMax = 0;
+            int valMin = 0;
+
+            for (int i = 1; i < input.Length; i++)
+            {
+                if (input[maxPos] < input[i])
+                    maxPos = i;
+                if (input[minPos] > input[i])
+                    minPos = i;
+            }
+            valMax = input[maxPos];
+            valMin = input[minPos];
+            input[maxPos] = valMin;
+            input[minPos] = valMax;
+        }
+    }
+}

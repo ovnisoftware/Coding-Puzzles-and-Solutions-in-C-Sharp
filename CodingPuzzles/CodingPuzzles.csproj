@@ -50,6 +50,7 @@
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Is_Palindrome.cs" />
     <Compile Include="Max_Value_Of_Array.cs" />
+    <Compile Include="Min_Max_Array_Swap.cs" />
     <Compile Include="Reverse_Array.cs" />
     <Compile Include="Reverse_Stack.cs" />
     <Compile Include="Reverse_String_With_Stack.cs" />
