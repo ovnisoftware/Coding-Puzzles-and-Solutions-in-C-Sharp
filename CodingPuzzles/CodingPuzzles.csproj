@@ -54,6 +54,7 @@
     <Compile Include="Reverse_Array.cs" />
     <Compile Include="Reverse_Stack.cs" />
     <Compile Include="Reverse_String_With_Stack.cs" />
+    <Compile Include="Transform_Array.cs" />
     <Compile Include="Two_Stack_Queue.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
