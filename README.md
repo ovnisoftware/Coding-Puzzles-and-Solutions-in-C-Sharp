@@ -53,4 +53,7 @@ Here's a list of the .cs files and their associated puzzle.
 16. Transform an array of items into a dictionary
  - Transform_Array.cs
 
+17. Write a method to replace all spaces in a string with '%20'
+ - Replace_Space.cs
+
 Please let me know if you find any errors in the solutions.
