@@ -56,4 +56,7 @@ Here's a list of the .cs files and their associated puzzle.
 17. Write a method to replace all spaces in a string with '%20'
  - Replace_Space.cs
 
+18. Write a function that accepts two integers and returns the remainder.
+ - Return_Remainder.cs
+
 Please let me know if you find any errors in the solutions.
