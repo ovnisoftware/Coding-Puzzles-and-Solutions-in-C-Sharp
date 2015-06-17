@@ -62,4 +62,7 @@ Here's a list of the .cs files and their associated puzzle.
 19. Write a function to determine if a TicTacToe board has a winner
  - Tic_Tac_Toe_Winner.cs
 
+20. Given an integer and an array of integers determine whether any two integers in the array sum to that integer.
+ - Target_Sum.cs
+
 Please let me know if you find any errors in the solutions.
