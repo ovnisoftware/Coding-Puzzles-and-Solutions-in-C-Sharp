@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodingPuzzles
+{
+    //Given an integer and an array of integers determine whether any two integers in the array sum to that integer.
+    public static class Target_Sum
+    {
+        //Brute force solution, n^2 time complexity
+        public static bool Target(int[] arr, int target)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int k = 0; k < arr.Length; k++)
+                {
+                    if (i != k)
+                    {
+                        int sum = arr[i] + arr[k];
+                        if (sum == target)
+                            return true;
+                    }
+                }
+            }
+            return false;
+        }
+    }
+}
