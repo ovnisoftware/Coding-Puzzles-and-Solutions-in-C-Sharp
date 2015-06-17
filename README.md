@@ -59,4 +59,7 @@ Here's a list of the .cs files and their associated puzzle.
 18. Write a function that accepts two integers and returns the remainder.
  - Return_Remainder.cs
 
+19. Write a function to determine if a TicTacToe board has a winner
+ - Tic_Tac_Toe_Winner.cs
+
 Please let me know if you find any errors in the solutions.
