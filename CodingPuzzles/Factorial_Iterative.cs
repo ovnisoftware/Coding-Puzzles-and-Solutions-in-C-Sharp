@@ -30,10 +30,10 @@ namespace CodingPuzzles
         //This is a little more concise version
         public static int factorial(int x)
         {
-            int fib = 1;
-            
             if (x < 0)
                 return -1;
+
+            int fib = 1;
 
             for (int i = 1; i <= x; i++)
                 fib = fib * i;
