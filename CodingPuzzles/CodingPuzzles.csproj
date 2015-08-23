@@ -56,6 +56,7 @@
     <Compile Include="Reverse_Array.cs" />
     <Compile Include="Reverse_Stack.cs" />
     <Compile Include="Reverse_String_With_Stack.cs" />
+    <Compile Include="Single_Space.cs" />
     <Compile Include="Target_Sum.cs" />
     <Compile Include="Tic_Tac_Toe_Winner.cs" />
     <Compile Include="Transform_Array.cs" />
