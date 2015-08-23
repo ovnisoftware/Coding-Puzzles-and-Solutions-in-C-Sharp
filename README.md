@@ -65,4 +65,7 @@ Here's a list of the .cs files and their associated puzzle.
 20. Given an integer and an array of integers determine whether any two integers in the array sum to that integer.
  - Target_Sum.cs
 
+21. Write a function that takes a string and outputs that same string with only one space between each word
+ - Single_Space.cs
+
 Please let me know if you find any errors in the solutions.
