@@ -67,8 +67,8 @@ Here's a list of the .cs files and their associated puzzle.
 
 21. Write a function that takes a string and outputs that same string with only one space between each word
  - Single_Space.cs
- - 
- 22. A ransom note can be formed by cutting characters out of a magazine to form a new sentence.  How would you figure out if a ransom note (represented as a string) can be formed from a given magazine (string)?
+
+22. A ransom note can be formed by cutting characters out of a magazine to form a new sentence.  How would you figure out if a ransom note (represented as a string) can be formed from a given magazine (string)?
  - RansomNote.cs
 
 Please let me know if you find any errors or if you know of more efficient solutions.
