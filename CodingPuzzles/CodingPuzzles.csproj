@@ -51,6 +51,7 @@
     <Compile Include="Is_Palindrome.cs" />
     <Compile Include="Max_Value_Of_Array.cs" />
     <Compile Include="Min_Max_Array_Swap.cs" />
+    <Compile Include="RansomNote.cs" />
     <Compile Include="Replace_Space.cs" />
     <Compile Include="Return_Remainder.cs" />
     <Compile Include="Reverse_Array.cs" />
