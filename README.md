@@ -71,4 +71,7 @@ Here's a list of the .cs files and their associated puzzle.
 22. A ransom note can be formed by cutting characters out of a magazine to form a new sentence.  How would you figure out if a ransom note (represented as a string) can be formed from a given magazine (string)?
  - RansomNote.cs
 
+23. Reverse words in a string
+ - Reverse_Words.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
