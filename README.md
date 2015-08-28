@@ -74,4 +74,7 @@ Here's a list of the .cs files and their associated puzzle.
 23. Reverse words in a string
  - Reverse_Words.cs
 
+24. Write a function to determine the maximum of a stack
+ - Stack_Max.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
