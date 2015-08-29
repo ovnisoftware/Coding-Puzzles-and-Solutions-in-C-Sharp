@@ -77,4 +77,7 @@ Here's a list of the .cs files and their associated puzzle.
 24. Write a function to determine the maximum of a stack
  - Stack_Max.cs
 
+25. Convert a binary string to an integer without using the Convert.ToInt32 class
+ - Binary_To_Decimal.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
