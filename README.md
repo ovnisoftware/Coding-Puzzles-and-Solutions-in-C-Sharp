@@ -80,4 +80,7 @@ Here's a list of the .cs files and their associated puzzle.
 25. Convert a binary string to an integer without using the Convert.ToInt32 class
  - Binary_To_Decimal.cs
 
+26. Count the number of words in a string (Needs to handle multiple spaces between words)
+ - Word_Count.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
