@@ -53,6 +53,7 @@
     <Compile Include="Max_Value_Of_Array.cs" />
     <Compile Include="Min_Max_Array_Swap.cs" />
     <Compile Include="Ransom_Note.cs" />
+    <Compile Include="Remove_Chars.cs" />
     <Compile Include="Replace_Space.cs" />
     <Compile Include="Return_Remainder.cs" />
     <Compile Include="Reverse_Array.cs" />
