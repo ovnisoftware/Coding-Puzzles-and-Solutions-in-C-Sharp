@@ -83,4 +83,7 @@ Here's a list of the .cs files and their associated puzzle.
 26. Count the number of words in a string (Needs to handle multiple spaces between words)
  - Word_Count.cs
 
+27. Remove all characters from a string except for these characters: [ { } ( ) ] without using Regex.
+ - Remove_Chars.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
