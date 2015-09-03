@@ -86,7 +86,4 @@ Here's a list of the .cs files and their associated puzzle.
 27. Remove all characters from a string except for these characters: [ { } ( ) ] without using Regex.
  - Remove_Chars.cs
 
-28. Sort an array of integers using Selection Sort and no temp array
- - Selection_Sort.cs
-
 Please let me know if you find any errors or if you know of more efficient solutions.
