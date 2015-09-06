@@ -11,6 +11,7 @@ namespace CodingPuzzles
     {
         static void Main(string[] args)
         {
+
         }
     }
 }
