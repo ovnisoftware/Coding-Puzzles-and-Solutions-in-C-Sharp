@@ -86,4 +86,7 @@ Here's a list of the .cs files and their associated puzzle.
 27. Remove all characters from a string except for these characters: [ { } ( ) ] without using Regex.
  - Remove_Chars.cs
 
+28. Count the number of elements that two arrays have in common
+ - Count_Array_Common_Elements.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
