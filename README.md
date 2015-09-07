@@ -89,4 +89,7 @@ Here's a list of the .cs files and their associated puzzle.
 28. Count the number of elements that two arrays have in common
  - Count_Array_Common_Elements.cs
 
+29. Convert hexadecimal (0-9, A-F) to binary with and without using the Convert.ToInt32 class
+ - Hex_To_Binary.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
