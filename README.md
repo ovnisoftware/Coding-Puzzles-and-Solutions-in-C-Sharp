@@ -92,4 +92,7 @@ Here's a list of the .cs files and their associated puzzle.
 29. Convert hexadecimal (0-9, A-F) to binary with and without using the Convert.ToInt32 class
  - Hex_To_Binary.cs
 
+30. Write a method to sort the elements of an array in descending order
+ - Sort_Desc.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
