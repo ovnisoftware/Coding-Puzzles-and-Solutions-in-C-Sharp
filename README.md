@@ -95,4 +95,7 @@ Here's a list of the .cs files and their associated puzzle.
 30. Write a method to sort the elements of an array in descending order
  - Sort_Desc.cs
 
+31. Write a method to simulate rolling a six-sided die
+ - Dice.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
