@@ -44,6 +44,7 @@
     <Compile Include="Binary_To_Decimal.cs" />
     <Compile Include="Check_Prime.cs" />
     <Compile Include="Count_Array_Common_Elements.cs" />
+    <Compile Include="Dice.cs" />
     <Compile Include="Factorial_Iterative.cs" />
     <Compile Include="Factorial_Recursive.cs" />
     <Compile Include="Fibonacci_Iterative.cs" />
