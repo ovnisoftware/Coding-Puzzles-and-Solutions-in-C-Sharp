@@ -6,21 +6,19 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CodingPuzzles
-{   
+{
     //Create a queue with two stacks
-    //The queue will holds string elements
     //A stack is LIFO (Last in, First out)
     //A queue is FIFO (First in, First out)
+    //This implementation works but is inefficient because the stacks are emptied and restacked on every Dequeue call
     public class Two_Stack_Queue
     {
-        //Declare two stacks
         //Stack1 will contain all the elements
-        Stack stack1 = new Stack();
+        Stack<string> stack1 = new Stack<string>();
 
         //Stack2 will act as a temporary container of elements when an element needs to be dequeued
-        Stack stack2 = new Stack();
+        Stack<string> stack2 = new Stack<string>();
 
-        //Adds a string to the queue
         public void Enqueue(string queueThis)
         {
             stack1.Push(queueThis);
@@ -28,44 +26,69 @@ namespace CodingPuzzles
 
         public string Dequeue()
         {
-            string returnString = "";
-            if (stack1.Count != 0)
-            {
-                //Store the count of the stack as a variable, if you use 'stack1.Count' directly
-                //in the for loop the, the loop will not loop the necessary number of times
-                int count = stack1.Count;
-                for (int i = 0; i < count; i++)
-                    stack2.Push((string)stack1.Pop());
-                
-                returnString = (string)stack2.Pop();
+            if (stack1.Count == 0)
+                throw new Exception("Empty Queue");
 
-                if (stack2.Count != 0)
-                {
-                    //Store the count of the stack as a variable, if you use 'stack1.Count' directly
-                    //in the for loop the, the loop will not loop the necessary number of times
-                    int count2 = stack2.Count;
-                    for (int i = 0; i < count2; i++)
-                        stack1.Push((string)stack2.Pop());
-                }
-            }
-            else
-                //Will let you know if you try to pop an empty stack
-                returnString = "The queue is empty";
-            return returnString;
+            while (stack1.Count != 0)
+                stack2.Push(stack1.Pop());
+
+            string result = stack2.Pop();
+
+            //Handles case where stack1 only contained one element
+            if (stack2.Count == 0)
+                return result;
+
+            while (stack2.Count != 0)
+                stack1.Push(stack2.Pop());
+
+            return result;
         }
-        ////copy this to Program.cs to test
-        //Two_Stack_Queue TSQueue = new Two_Stack_Queue();
-        //TSQueue.Enqueue("Element 1");
-        //TSQueue.Enqueue("Element 2");
-        //TSQueue.Enqueue("Element 3");
-        //Console.WriteLine(TSQueue.Dequeue());
-        //Console.WriteLine(TSQueue.Dequeue());
-        //Console.WriteLine(TSQueue.Dequeue());
-        //Console.WriteLine(TSQueue.Dequeue());
-        ////Output should be:
-        ////Element 1
-        ////Element 2
-        ////Element 3
-        ////The queue is empty
+        ////Copy this to Program.cs to test
+        //Two_Stack_Queue q = new Two_Stack_Queue();
+        //q.Enqueue("Element 1");
+        //q.Enqueue("Element 2");
+        //q.Enqueue("Element 3");
+        //Console.WriteLine(q.Dequeue());
+        //Console.WriteLine(q.Dequeue());
+        //Console.WriteLine(q.Dequeue());
+    }
+
+    //More efficient implementation which only shifts elements from new stack to old stack when the old stack is empty
+    //Source: Cracking Coding Interview Fifth Edition p. 81
+    public class Two_Stack_Queue2
+    {
+        Stack<string> stackNew = new Stack<string>();
+        Stack<string> stackOld = new Stack<string>();
+
+        public void Enqueue(string queueThis)
+        {
+            stackNew.Push(queueThis);
+        }
+
+        public string Dequeue()
+        {
+            shiftStacks();
+            if (stackOld.Count == 0)
+                throw new Exception("Empty Queue");
+            return stackOld.Pop();
+        }
+
+        //Only copies elements from new stack to old stack when the old stack is empty
+        private void shiftStacks()
+        {
+            if (stackOld.Count == 0)
+                while (stackNew.Count != 0)
+                    stackOld.Push(stackNew.Pop());
+        }
+        ////Copy this to Program.cs to test
+        //Two_Stack_Queue2 q = new Two_Stack_Queue2();
+        //q.Enqueue("Element 1");
+        //q.Enqueue("Element 2");
+        //q.Enqueue("Element 3");
+        //Console.WriteLine(q.Dequeue());
+        //Console.WriteLine(q.Dequeue());
+        //q.Enqueue("Element 4");
+        //Console.WriteLine(q.Dequeue());
+        //Console.WriteLine(q.Dequeue());
     }
 }
