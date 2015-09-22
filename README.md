@@ -98,4 +98,7 @@ Here's a list of the .cs files and their associated puzzle.
 31. Write a method to simulate rolling a six-sided die
  - Dice.cs
 
+32. Find majority element in an unsorted array
+ - Majority_Unsorted_Array.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
