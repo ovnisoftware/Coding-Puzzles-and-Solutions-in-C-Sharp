@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Digits.cs" />
     <Compile Include="Binary_To_Decimal.cs" />
     <Compile Include="Check_Prime.cs" />
     <Compile Include="Count_Array_Common_Elements.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="Factorial_Recursive.cs" />
     <Compile Include="Fibonacci_Iterative.cs" />
     <Compile Include="Fibonacci_Recursive.cs" />
+    <Compile Include="Majority_Unsorted_Array.cs" />
     <Compile Include="Find_Uncoupled_Ints.cs" />
     <Compile Include="FizzBuzz.cs" />
     <Compile Include="Hex_To_Binary.cs" />
