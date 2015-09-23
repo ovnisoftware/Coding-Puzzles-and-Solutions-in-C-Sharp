@@ -11,7 +11,10 @@ namespace CodingPuzzles
     {
         static void Main(string[] args)
         {
-
+            ////Run this in Program.cs to test
+            //int[] arr = new int[] { 2, 5, 2, 3, 7, 3, 5, 9, 9 };
+            //Console.WriteLine(FindUncoupledInts.ReturnUncoupled(arr));
+            ////Output should be 7
         }
     }
 }
