@@ -11,7 +11,7 @@ namespace CodingPuzzles
     public static class HexToBinary
     {
         //Stores binary values of hexadecimal characters
-        private static readonly Dictionary<char, string> hexCharToBinary = new Dictionary<char, string>
+        private static readonly Dictionary<char, string> HexCharToBinary = new Dictionary<char, string>
         {
             { '0', "0000" },
             { '1', "0001" },
@@ -38,13 +38,13 @@ namespace CodingPuzzles
             s = s.ToLower();
 
             foreach (char c in s)
-                result.Append(hexCharToBinary[c] + " ");
+                result.Append(HexCharToBinary[c] + " ");
 
             return result.ToString();
         }
 
         //Conversion using Convert class
-        public static string ConertIt1(string s)
+        public static string ConvertIt1(string s)
         {
             StringBuilder result = new StringBuilder();
 

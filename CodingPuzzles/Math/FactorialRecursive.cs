@@ -11,18 +11,18 @@ namespace CodingPuzzles
     //1! = 1
     //Good explanation of recursive factorial in C++: https://www.youtube.com/watch?v=_OmRGjbyzno
     //Thanks myCodeSchool channel on Youtube!
-    public static class Factorial_Recursive
+    public static class FactorialRecursive
     {
-        public static int Factorial(int x)
+        public static int GetFactorial(int x)
         {
             //Base case
             if (x == 0)
                 return 1;
             else
-                return (x * Factorial(x - 1));
+                return (x * GetFactorial(x - 1));
         }
         ////Call this in Program.cs to test
-        //Console.WriteLine(Factorial_Recursive.Factorial(6));
+        //Console.WriteLine(FactorialRecursive.GetFactorial(6));
         ////Output should be 720
     }
 }

@@ -8,9 +8,9 @@ namespace CodingPuzzles
 {
     //Write a function to determine if a TicTacToe board (3x3 board implemented as a 2D array) has a winner
     //See code at bottom for example of a 3x3 board implemented with a 2D array
-    public class Tic_Tac_Toe_Winner
+    public class TicTacToeWinner
     {
-        public static bool TicTacToeWinner(int[,] x)
+        public static bool IsWinner(int[,] x)
         {
             bool result = false;
 
@@ -75,6 +75,6 @@ namespace CodingPuzzles
     //a[2,0] = 0;
     //a[2,1] = 0;
     //a[2,2] = 0;
-    //Console.WriteLine(Practice.TicTacToeWinner(a));
+    //Console.WriteLine(TicTacToeWinner.IsWinner(a));
     //Should return true
 }

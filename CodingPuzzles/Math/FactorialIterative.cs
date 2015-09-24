@@ -28,7 +28,7 @@ namespace CodingPuzzles
         }
 
         //This is a little more concise version
-        public static int GetFactorial2(int x)
+        public static int GetFactorial1(int x)
         {
             if (x < 0)
                 return -1;

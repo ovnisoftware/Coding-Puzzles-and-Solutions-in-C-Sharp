@@ -24,7 +24,7 @@ namespace CodingPuzzles
         }
 
         //This method reverses the stack it is passed and returns void
-        public static void Reverse2(Stack input)
+        public static void Reverse1(Stack input)
         {
             ArrayList a = new ArrayList();
 
