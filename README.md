@@ -17,7 +17,7 @@ MajorityUnsortedArray.cs
 MaxValueOfArray.cs
 
 5. Write a function to swap the min and max element in an integer array  
-Min_Max_Array_Swap.cs
+MinMaxArraySwap.cs
 
 6. Write a function that reverses an array of integers  
 ReverseArray.cs
@@ -39,7 +39,7 @@ BinaryToDecimal.cs
 HexToBinary.cs
 
 3. Write a function to determine if a TicTacToe board has a winner  
-Tic_Tac_Toe_Winner.cs
+TicTacToeWinner.cs
 
 4. Given a non-negative integer num, repeatedly add all its digits until the result has only one digit  
 AddDigits.cs
@@ -108,5 +108,8 @@ UniqueString.cs
 
 9. Count the number of words in a string (Needs to handle multiple spaces between words)  
 WordCount.cs
+
+10. Check a string for balanced delimiters  
+BalancedDelimiters.cs
 
 Please let me know if you find any errors or if you know of more efficient solutions.
