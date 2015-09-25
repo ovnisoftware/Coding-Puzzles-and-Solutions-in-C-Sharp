@@ -31,6 +31,10 @@ TargetSum.cs
 9. Transform an array of items into a dictionary  
 TransformArray.cs
 
+### Bitwise Puzzles Folder
+1. Check equality of two ints using bitwise operators  
+IsEqual.cs
+
 ### Math Puzzles Folder
 1. Convert a binary string to an integer without using the Convert.ToInt32 class  
 BinaryToDecimal.cs
