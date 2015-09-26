@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Bitwise\IsEqual.cs" />
     <Compile Include="Math\AddDigits.cs" />
+    <Compile Include="Math\ClimbingStairs.cs" />
     <Compile Include="Math\Converter\BinaryToDecimal.cs" />
     <Compile Include="Math\CheckPrime.cs" />
     <Compile Include="Array\CountArrayCommonElements.cs" />
