@@ -56,6 +56,8 @@
     <Compile Include="Array\FindUncoupledInts.cs" />
     <Compile Include="Math\FizzBuzz.cs" />
     <Compile Include="Math\Converter\HexToBinary.cs" />
+    <Compile Include="Stack\MinStack.cs" />
+    <Compile Include="Stack\StackNode.cs" />
     <Compile Include="StringManipulation\BalancedDelimiters.cs" />
     <Compile Include="StringManipulation\IsAnagram.cs" />
     <Compile Include="StringManipulation\IsPalindrome.cs" />
