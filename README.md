@@ -88,6 +88,9 @@ StackMax.cs
 4. Create a queue with two stacks  
 TwoStackQueue.cs
 
+5. How would you design a stack which, in addition to push and pop, also has a function min which returns the minimum element? Push, pop and min should all operate in O(1) time  
+MinStack.cs
+
 ###String Manipulation Puzzles Folder
 1. Given two strings s and t, write a function to determine if t is an anagram of s.  Ex. listen and silent are anagrams  
 IsAnagram.cs
