@@ -122,4 +122,7 @@ WordCount.cs
 10. Check a string for balanced delimiters  
 BalancedDelimiters.cs
 
+11. Given two strings, write a method to decide if one is a permutation of the other.  dog is a permutation of god, algorithm is case sensitive and white space counts  
+IsPermutation.cs
+
 Please let me know if you find any errors or if you know of more efficient solutions.
