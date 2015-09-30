@@ -31,6 +31,9 @@ TargetSum.cs
 9. Transform an array of items into a dictionary  
 TransformArray.cs
 
+10. Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.  
+ArrayDuplicates.cs
+
 ### Bitwise Puzzles Folder
 1. Check equality of two ints using bitwise operators  
 IsEqual.cs
