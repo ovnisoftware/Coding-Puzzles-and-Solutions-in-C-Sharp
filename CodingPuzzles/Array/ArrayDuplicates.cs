@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CodingPuzzles
+{
+    //Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct. 
+    public static class ArrayDuplicates
+    {
+        //Dictionary solution
+        public static bool ContainsDuplicates(params int[] x)
+        {
+            Dictionary<int, int> d = new Dictionary<int, int>();
+            foreach (int i in x)
+            {
+                if (d.ContainsKey(i))
+                    return true;
+                else
+                    d.Add(i, 1);
+            }
+            return false;
+        }
+        //Console.WriteLine(ArrayDuplicates.ContainsDuplicates(1,2,3,2));
+    }
+}

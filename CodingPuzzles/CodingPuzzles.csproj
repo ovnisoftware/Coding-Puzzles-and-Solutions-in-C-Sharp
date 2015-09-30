@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Array\ArrayDuplicates.cs" />
     <Compile Include="Bitwise\IsEqual.cs" />
     <Compile Include="Math\AddDigits.cs" />
     <Compile Include="Math\ClimbingStairs.cs" />
