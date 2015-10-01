@@ -34,9 +34,12 @@ TransformArray.cs
 10. Given an array of integers, find if the array contains any duplicates. Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.  
 ArrayDuplicates.cs
 
-### Bitwise Puzzles Folder
+### BitManipulation Puzzles Folder
 1. Check equality of two ints using bitwise operators  
 IsEqual.cs
+
+2. Use bitwise operators to determine if an integer is odd or even  
+CheckParity.cs
 
 ### Math Puzzles Folder
 1. Convert a binary string to an integer without using the Convert.ToInt32 class  
