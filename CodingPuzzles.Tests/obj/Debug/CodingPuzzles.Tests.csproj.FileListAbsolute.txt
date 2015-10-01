@@ -1,0 +1,8 @@
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\obj\Debug\CodingPuzzles.Tests.csprojResolveAssemblyReference.cache
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\bin\Debug\CodingPuzzles.Tests.dll
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\bin\Debug\CodingPuzzles.Tests.pdb
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\bin\Debug\CodingPuzzles.exe
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\bin\Debug\CodingPuzzles.pdb
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\obj\Debug\CodingPuzzles.Tests.dll
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles.Tests\obj\Debug\CodingPuzzles.Tests.pdb

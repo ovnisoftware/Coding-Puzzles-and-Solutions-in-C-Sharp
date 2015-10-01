@@ -42,7 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\ArrayDuplicates.cs" />
-    <Compile Include="Bitwise\IsEqual.cs" />
+    <Compile Include="BitManipulation\CheckParity.cs" />
+    <Compile Include="BitManipulation\IsEqual.cs" />
     <Compile Include="Math\AddDigits.cs" />
     <Compile Include="Math\ClimbingStairs.cs" />
     <Compile Include="Math\Converter\BinaryToDecimal.cs" />
