@@ -12,7 +12,7 @@ namespace CodingPuzzles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CheckParity.IsEven(2));
+
         }
     }
 }
