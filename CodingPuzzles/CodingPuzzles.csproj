@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Array\ArrayDuplicates.cs" />
     <Compile Include="BinaryTree\BinarySearchTree.cs" />
+    <Compile Include="BinaryTree\MinMax.cs" />
     <Compile Include="BinaryTree\NodeBT.cs" />
     <Compile Include="BitManipulation\CheckParity.cs" />
     <Compile Include="BitManipulation\IsEqual.cs" />

@@ -3,7 +3,7 @@
 namespace CodingPuzzles
 {
     //Implement a binary search tree
-    public class BinarySearchTree
+    partial class BinarySearchTree
     {
         public NodeBT Root { get; set; }
         public int Count { get; set; }
