@@ -49,6 +49,7 @@
     <Compile Include="BitManipulation\IsEqual.cs" />
     <Compile Include="Math\AddDigits.cs" />
     <Compile Include="Math\ClimbingStairs.cs" />
+    <Compile Include="Math\ClockAngle.cs" />
     <Compile Include="Math\Converter\BinaryToDecimal.cs" />
     <Compile Include="Math\CheckPrime.cs" />
     <Compile Include="Array\CountArrayCommonElements.cs" />
