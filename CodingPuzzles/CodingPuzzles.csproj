@@ -62,6 +62,7 @@
     <Compile Include="Array\FindUncoupledInts.cs" />
     <Compile Include="Math\FizzBuzz.cs" />
     <Compile Include="Math\Converter\HexToBinary.cs" />
+    <Compile Include="Math\PlusOne.cs" />
     <Compile Include="Stack\MinStack.cs" />
     <Compile Include="Stack\StackNode.cs" />
     <Compile Include="StringManipulation\BalancedDelimiters.cs" />
