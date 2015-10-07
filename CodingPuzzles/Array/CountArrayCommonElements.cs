@@ -29,10 +29,5 @@ namespace CodingPuzzles
                 }
             return result;
         }
-        ////Run in Program.cs to test
-        //int[] z = new int[] { 5, 5, 5, 4, 3, 2, 1 };
-        //int[] y = new int[] { 9, 3, 3, 3, 2, 2, 2, 1 };
-        //Console.WriteLine(CountArrayCommonElements.GetNumberCommonElements(z, y));
-        ////Output should be 3
     }
 }

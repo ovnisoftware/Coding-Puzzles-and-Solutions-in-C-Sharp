@@ -26,31 +26,7 @@ namespace CodingPuzzles
                 if (entry.Value == 1)
                     return entry.Key;
             }
-            return -1;
-        }
-        
-        //Simpler implementation
-        public static int GetUncoupled2(int[] x)
-        {
-            Dictionary<int, int> d = new Dictionary<int, int>();
-
-            foreach (int a in x)
-            {
-                if (d.ContainsKey(a))
-                    d[a]++;
-                else
-                    d.Add(a, 1);
-            }
-            foreach (KeyValuePair<int, int> entry in d)
-            {
-                if (entry.Value == 1)
-                    return entry.Key;
-            }
-            return -1;
+            throw new Exception("No uncoupled integer in array");
         }
     }
-    ////Run this in Program.cs to test
-    //int[] arr = new int[] { 2, 5, 2, 3, 7, 3, 5, 9, 9 };
-    //Console.WriteLine(FindUncoupledInts.GetUncoupled(arr));
-    ////Output should be 7
 }

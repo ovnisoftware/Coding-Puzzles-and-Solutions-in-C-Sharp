@@ -22,6 +22,5 @@ namespace CodingPuzzles
             }
             return false;
         }
-        //Console.WriteLine(ArrayDuplicates.ContainsDuplicates(1,2,3,2));
     }
 }

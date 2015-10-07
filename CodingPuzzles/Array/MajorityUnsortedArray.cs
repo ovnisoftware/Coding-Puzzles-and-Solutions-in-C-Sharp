@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CodingPuzzles
 {
-    class MajorityUnsortedArray
+    public class MajorityUnsortedArray
     {
         //Find majority element in an unsorted array
         //Ex. {1,2,3,4,5,2,2,2,2}, 2 is the majority element because it accounts for more than 50% of the array
@@ -28,11 +28,7 @@ namespace CodingPuzzles
                 else
                     d.Add(i, 1);
             //No majority element
-            return -1;
+            throw new Exception("No majority element in array");
         }
-        ////Run in Program.cs to test
-        //int[] x = new int[] { 10, 9, 8, 7, 6, 4, 3, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 };
-        //int i = MajorityUnsortedArray.GetMajorityElement(x);
-        //Console.WriteLine(i);
     }
 }
