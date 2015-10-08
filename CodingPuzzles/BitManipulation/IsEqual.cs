@@ -27,6 +27,5 @@ namespace CodingPuzzles
                 return true;
             return false;
         }
-        //Console.WriteLine(IsEqual.TwoIntsEqual(5,5)); 
     }
 }

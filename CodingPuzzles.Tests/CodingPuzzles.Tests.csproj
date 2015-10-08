@@ -58,6 +58,11 @@
     <Compile Include="Array\MajorityUnsortedArrayTests.cs" />
     <Compile Include="BitManipulation\CheckParityTests.cs" />
     <Compile Include="BitManipulation\IsEqualTests.cs" />
+    <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />
+    <Compile Include="Math\AddDigitsTest.cs" />
+    <Compile Include="Math\CheckPrimeTests.cs" />
+    <Compile Include="Math\ClimbingStairsTests.cs" />
+    <Compile Include="Math\DiceTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

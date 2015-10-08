@@ -36,6 +36,5 @@ namespace CodingPuzzles
                     x = result;
             }
         }
-        //Console.WriteLine(AddDigits.Add(38989));
     }
 }

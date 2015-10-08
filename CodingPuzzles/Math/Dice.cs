@@ -18,12 +18,5 @@ namespace CodingPuzzles
         {
             return rand.Next(1, 7);
         }
-        ////Call in Program.cs to test
-        //Dice dice = new Dice();
-        //Console.WriteLine(dice.Roll());
-        //Console.WriteLine(dice.Roll());
-        //Console.WriteLine(dice.Roll());
-        //Console.WriteLine(dice.Roll());
-        //Console.WriteLine(dice.Roll());
     }
 }

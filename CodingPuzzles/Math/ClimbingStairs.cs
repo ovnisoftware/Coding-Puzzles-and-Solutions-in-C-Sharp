@@ -9,13 +9,15 @@ namespace CodingPuzzles
     public static class ClimbingStairs
     {
         //A child is running up a staircase with n steps, and can hop either 1, 2, or 3 steps at a time.  Implement a method to count how many possible ways the child can run up the stairs.
-        //Source: Crack Coding Interview p. 316
+        //Source: Cracking the Coding Interview p. 109
         //Caching solution: https://www.youtube.com/watch?v=YTdhH5Uk06E
         //Answer will overflow integer datatype(over 4 billion) at 37 steps
 
         //Recursive solution
         public static int CombosRecursive(int numStairs)
         {
+            if (numStairs > 36)
+                throw new Exception("Int overflow");
             if (numStairs <= 0)
                 return 0;
             if (numStairs == 1)
@@ -30,6 +32,8 @@ namespace CodingPuzzles
         //Iterative solution with caching
         public static int CombosIterative(int numStairs)
         {
+            if (numStairs > 36)
+                throw new Exception("Int overflow");
             if (numStairs <= 0)
                 return 0;
             if (numStairs == 1)
