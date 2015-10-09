@@ -9,11 +9,12 @@ namespace CodingPuzzles
     //Write a function to return the maximum value stored in an array of non-negative integers
     public static class MaxValueInArray
     {
-        public static int GetMax(int[] input)
+        public static int GetMax(params int[] input)
         {
-            //If an empty array is passed, -1 will be returned
-            int max = -1;
+            if (input.Length == 0)
+                throw new Exception("Empty Array");
 
+            int max = 0;
             foreach (int i in input)
             {
                 if (i > max)
@@ -21,8 +22,5 @@ namespace CodingPuzzles
             }
             return max;
         }
-        //int[] input = new int[] { 0, 58, 8, 92, 194, 2 };
-        //Console.WriteLine(MaxValueInArray.GetMax(input));
-        ////Should return 194
     }
 }

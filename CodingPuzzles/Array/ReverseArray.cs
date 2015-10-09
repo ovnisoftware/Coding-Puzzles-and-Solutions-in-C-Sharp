@@ -8,7 +8,7 @@ namespace CodingPuzzles
 {
     //Write a program that reverses an array.  Ex. ({ 7, 4, 9, 2 } becomes { 2, 9, 4, 7 })
     //without calling Array.Reverse() in System namespace
-    public static class Reverse_Array
+    public static class ReverseArray
     {
         public static void Reverse(int[] x)
         {

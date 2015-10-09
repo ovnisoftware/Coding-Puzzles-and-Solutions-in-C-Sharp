@@ -14,10 +14,5 @@ namespace CodingPuzzles
             Array.Sort(x);
             Array.Reverse(x);
         }
-        ////Call in Program.cs to test
-        //int[] x = new int[] { 7, 3, 2, 4, 5, 1, 8, 6 };
-        //Sort_Desc.Sort(x);
-        //foreach(int i in x)
-        //    Console.WriteLine(i);
     }
 }

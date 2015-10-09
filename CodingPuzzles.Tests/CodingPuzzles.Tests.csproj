@@ -57,6 +57,10 @@
     <Compile Include="Array\FindUncoupledIntsTests.cs" />
     <Compile Include="Array\MajorityUnsortedArrayTests.cs" />
     <Compile Include="Array\MoveZerosTests.cs" />
+    <Compile Include="Array\MaxValueOfArrayTests.cs" />
+    <Compile Include="Array\MinMaxArraySwapTests.cs" />
+    <Compile Include="Array\ReverseArrayTests.cs" />
+    <Compile Include="Array\SortDescTests.cs" />
     <Compile Include="BitManipulation\CheckParityTests.cs" />
     <Compile Include="BitManipulation\IsEqualTests.cs" />
     <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />
