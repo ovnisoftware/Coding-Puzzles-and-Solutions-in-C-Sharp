@@ -5,6 +5,7 @@ using System.Diagnostics; //Declare for stopwatch
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodingPuzzles.Games;
 
 namespace CodingPuzzles
 {

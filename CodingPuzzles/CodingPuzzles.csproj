@@ -49,6 +49,10 @@
     <Compile Include="BinaryTree\NodeBT.cs" />
     <Compile Include="BitManipulation\CheckParity.cs" />
     <Compile Include="BitManipulation\IsEqual.cs" />
+    <Compile Include="Games\DeckOfCards\Card.cs" />
+    <Compile Include="Games\DeckOfCards\Deck.cs" />
+    <Compile Include="Games\DeckOfCards\Suit.cs" />
+    <Compile Include="Games\DeckOfCards\Value.cs" />
     <Compile Include="Math\AddDigits.cs" />
     <Compile Include="Math\ClimbingStairs.cs" />
     <Compile Include="Math\ClockAngle.cs" />
