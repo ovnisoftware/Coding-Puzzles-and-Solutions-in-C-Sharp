@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="Array\ArrayDuplicates.cs" />
     <Compile Include="Array\MoveZeros.cs" />
+    <Compile Include="Array\SubArraySumK.cs" />
     <Compile Include="BinaryTree\BinarySearchTree.cs" />
     <Compile Include="BitManipulation\IsPowerOf2.cs" />
     <Compile Include="BinaryTree\MinMax.cs" />
