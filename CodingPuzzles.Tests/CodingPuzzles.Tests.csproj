@@ -61,6 +61,7 @@
     <Compile Include="Array\MinMaxArraySwapTests.cs" />
     <Compile Include="Array\ReverseArrayTests.cs" />
     <Compile Include="Array\SortDescTests.cs" />
+    <Compile Include="Array\Array123Tests.cs" />
     <Compile Include="BitManipulation\CheckParityTests.cs" />
     <Compile Include="BitManipulation\IsEqualTests.cs" />
     <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />

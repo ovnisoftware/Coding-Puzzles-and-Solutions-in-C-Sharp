@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Array\ArrayDuplicates.cs" />
+    <Compile Include="Array\Contains123.cs" />
     <Compile Include="Array\MoveZeros.cs" />
     <Compile Include="Array\SubArraySumK.cs" />
     <Compile Include="BinaryTree\BinarySearchTree.cs" />
