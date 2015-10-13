@@ -55,6 +55,7 @@
     <Compile Include="Games\DeckOfCards\Deck.cs" />
     <Compile Include="Games\DeckOfCards\Suit.cs" />
     <Compile Include="Games\DeckOfCards\Value.cs" />
+    <Compile Include="Games\GameOfLife.cs" />
     <Compile Include="Math\AddDigits.cs" />
     <Compile Include="Math\ClimbingStairs.cs" />
     <Compile Include="Math\ClockAngle.cs" />
