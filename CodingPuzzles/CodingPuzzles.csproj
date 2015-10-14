@@ -80,6 +80,7 @@
     <Compile Include="Array\MaxValueOfArray.cs" />
     <Compile Include="Array\MinMaxArraySwap.cs" />
     <Compile Include="StringManipulation\IsPermutation.cs" />
+    <Compile Include="StringManipulation\LongestCommonPrefix.cs" />
     <Compile Include="StringManipulation\RansomNote.cs" />
     <Compile Include="StringManipulation\RemoveChars.cs" />
     <Compile Include="StringManipulation\ReplaceSpace.cs" />
