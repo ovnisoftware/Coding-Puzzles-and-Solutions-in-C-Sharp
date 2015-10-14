@@ -15,15 +15,12 @@ namespace CodingPuzzles
     {
         public static int GetFibonacci(int x)
         {
+            if (x < 1)
+                throw new Exception("Input must be at least 1");
             if ((x == 1) || (x == 2))
                 return 1;
-            else if (x > 2)
-                return (GetFibonacci(x - 1) + GetFibonacci(x - 2));
             else
-                return -1;
+                return (GetFibonacci(x - 1) + GetFibonacci(x - 2));
         }
-        ////Call this in Program.cs to test
-        //Console.WriteLine(FibonacciRecursive.RGetFibonacci(12));
-        ////Output should be 144
     }
 }

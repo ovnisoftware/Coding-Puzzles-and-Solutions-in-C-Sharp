@@ -18,6 +18,8 @@ namespace CodingPuzzles
     {
         public static int GetFibonacci(int x)
         {
+            if (x < 1)
+                throw new Exception("Input must be at least 1");
             int prev = 0;
             int current = 1;
             int fib = 1;
@@ -29,8 +31,5 @@ namespace CodingPuzzles
             }
             return fib;
         }
-        ////Call this in Program.cs to test
-        //Console.WriteLine(FibonacciIterative.GetFibonacci(7));
-        ////Output should be 13
     }
 }

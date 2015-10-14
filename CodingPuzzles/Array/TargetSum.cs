@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 namespace CodingPuzzles
 {
     //Given an integer and an array of integers determine whether any two integers in the array sum to that integer.
-    public static class Target_Sum
+    public static class TargetSum
     {
-        //Brute force solution, n^2 time complexity
+        //Brute force solution, O(n^2) time complexity
         public static bool TwoIntegersSumToTarget(int[] arr, int target)
         {
             for (int i = 0; i < arr.Length; i++)

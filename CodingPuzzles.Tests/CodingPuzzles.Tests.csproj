@@ -62,6 +62,8 @@
     <Compile Include="Array\ReverseArrayTests.cs" />
     <Compile Include="Array\SortDescTests.cs" />
     <Compile Include="Array\Array123Tests.cs" />
+    <Compile Include="Array\SubArraySumKTests.cs" />
+    <Compile Include="Array\TargetSumTests.cs" />
     <Compile Include="BitManipulation\CheckParityTests.cs" />
     <Compile Include="BitManipulation\IsEqualTests.cs" />
     <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />
@@ -69,6 +71,11 @@
     <Compile Include="Math\CheckPrimeTests.cs" />
     <Compile Include="Math\ClimbingStairsTests.cs" />
     <Compile Include="Math\DiceTests.cs" />
+    <Compile Include="Math\ClockAngleTests.cs" />
+    <Compile Include="Math\FactorialIterativeTests.cs" />
+    <Compile Include="Math\FactorialRecursiveTests.cs" />
+    <Compile Include="Math\FibonacciIterativeTests.cs" />
+    <Compile Include="Math\FibonacciRecursiveTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

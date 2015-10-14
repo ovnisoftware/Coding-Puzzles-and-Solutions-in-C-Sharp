@@ -26,8 +26,5 @@ namespace CodingPuzzles
             answer = Math.Min(answer, 360 - answer);
             return answer;
         }
-        ////Call this in Program.cs to test
-        //Console.WriteLine(ClockAngle.GetClockAngle(12, 30));
-        ////Output should be 165
     }
 }

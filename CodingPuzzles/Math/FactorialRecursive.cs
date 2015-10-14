@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CodingPuzzles
-{   
+{
     //Write a recursive method that returns the factorial of a given integer
     //0! = 1
     //1! = 1
@@ -15,14 +15,13 @@ namespace CodingPuzzles
     {
         public static int GetFactorial(int x)
         {
+            if (x < 0)
+                throw new Exception("Input must be at least 0");
             //Base case
             if (x == 0)
                 return 1;
             else
                 return (x * GetFactorial(x - 1));
         }
-        ////Call this in Program.cs to test
-        //Console.WriteLine(FactorialRecursive.GetFactorial(6));
-        ////Output should be 720
     }
 }

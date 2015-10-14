@@ -10,7 +10,7 @@ namespace CodingPuzzles
     //Source Youtube - IDeserve: https://www.youtube.com/watch?v=gHSoIwnERF0
     public static class SubArraySumK
     {
-        public static int GetSubArray(int[] x, int target)
+        public static int GetMinLength(int[] x, int target)
         {
             int minArraySize = int.MaxValue;
             for (int i = 0; i < x.Length; i++)
@@ -34,7 +34,5 @@ namespace CodingPuzzles
                 throw new Exception("No sub array amounts to passed value");
             return minArraySize;
         }
-        //int[] x = new int[] { 2, 3, 1, 1, -1, 6, 4, 3, 8 };
-        //Console.WriteLine(SubArraySumK.GetSubArray(x, 7));
     }
 }
