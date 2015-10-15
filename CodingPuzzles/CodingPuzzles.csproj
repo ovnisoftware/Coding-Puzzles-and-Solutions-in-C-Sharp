@@ -62,6 +62,7 @@
     <Compile Include="Math\Converter\BinaryToDecimal.cs" />
     <Compile Include="Math\CheckPrime.cs" />
     <Compile Include="Array\CountArrayCommonElements.cs" />
+    <Compile Include="Math\Converter\IntToWords.cs" />
     <Compile Include="Math\Dice.cs" />
     <Compile Include="Math\FactorialIterative.cs" />
     <Compile Include="Math\FactorialRecursive.cs" />

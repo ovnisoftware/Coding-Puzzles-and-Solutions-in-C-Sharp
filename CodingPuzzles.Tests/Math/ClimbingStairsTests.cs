@@ -19,7 +19,6 @@ namespace CodingPuzzles.Tests.Math
         [TestMethod]
         public void CombosRecursive_37Passed_IntOverflows()
         {
-
             Exception exception = null;
             try
             {
