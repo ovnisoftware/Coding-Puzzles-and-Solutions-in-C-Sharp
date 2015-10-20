@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CodingPuzzles
-{ 
+{
     //Given a string s consists of upper/lower-case alphabets and empty space characters ' ', return the length of last word in the string.
     //If the last word does not exist, return 0.
     //Source: https://leetcode.com/problems/length-of-last-word/
@@ -28,6 +28,19 @@ namespace CodingPuzzles
             }
             return count;
         }
-        //Console.WriteLine(LengthOfLastWord.GetLength("abc abc abc abce "));
+
+        //More concise
+        public static int GetLength2(string x)
+        {
+            int length = 0;
+            for (int i = x.Length - 1; i >= 0; i--)
+            {
+                if (x[i] == ' ')
+                    return length;
+                length++;
+            }
+            return length;
+            //Console.WriteLine(LengthOfLastWord.GetLength("abc abc abc abce "));}
+        }
     }
 }
