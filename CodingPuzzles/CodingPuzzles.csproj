@@ -78,7 +78,7 @@
     <Compile Include="Stack\MinStack.cs" />
     <Compile Include="Stack\StackNode.cs" />
     <Compile Include="StringManipulation\BalancedDelimiters.cs" />
-    <Compile Include="StringManipulation\BreakAZCode.cs" />
+    <Compile Include="Math\Converter\BreakAZCode.cs" />
     <Compile Include="StringManipulation\IsAnagram.cs" />
     <Compile Include="StringManipulation\IsPalindrome.cs" />
     <Compile Include="Array\MaxValueOfArray.cs" />
