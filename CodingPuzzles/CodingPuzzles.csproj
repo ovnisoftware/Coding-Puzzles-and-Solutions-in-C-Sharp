@@ -80,6 +80,7 @@
     <Compile Include="StringManipulation\BalancedDelimiters.cs" />
     <Compile Include="Math\Converter\BreakAZCode.cs" />
     <Compile Include="StringManipulation\IsAnagram.cs" />
+    <Compile Include="StringManipulation\IsIsomorphic.cs" />
     <Compile Include="StringManipulation\IsPalindrome.cs" />
     <Compile Include="Array\MaxValueOfArray.cs" />
     <Compile Include="Array\MinMaxArraySwap.cs" />
