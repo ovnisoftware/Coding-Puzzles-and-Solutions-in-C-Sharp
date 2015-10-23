@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodingPuzzles.StringManipulation
+namespace CodingPuzzles
 {
     //Check a string for balanced delimiters
     //Ex. string "(test)[1234]{testagain!}" should return True since it's balanced "()[]{}"

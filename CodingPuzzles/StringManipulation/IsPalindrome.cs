@@ -27,8 +27,5 @@ namespace CodingPuzzles
             }
             return true;
         }
-        ////Call this in Program.cs to test
-        //Console.WriteLine(IsPalindrome.IsItPalindrome("Never odd or even"));
-        ////Output should be True
     }
 }

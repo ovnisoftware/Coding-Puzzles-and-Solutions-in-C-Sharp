@@ -47,9 +47,5 @@ namespace CodingPuzzles
             //Compare strings
             return (yResult == xResult);
         }
-        //Console.WriteLine(IsIsomorphic.IsoCheck("aba", "bbb"));
-        //Console.WriteLine(IsIsomorphic.IsoCheck("egg", "add"));
-        //Console.WriteLine(IsIsomorphic.IsoCheck("foo", "bar"));
-        //Console.WriteLine(IsIsomorphic.IsoCheck("paper", "title"));
     }
 }

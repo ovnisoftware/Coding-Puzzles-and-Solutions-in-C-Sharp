@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodingPuzzles.StringManipulation
+namespace CodingPuzzles
 {
     public static class IsAnagram
     {
@@ -24,6 +24,5 @@ namespace CodingPuzzles.StringManipulation
 
             return (xArray.SequenceEqual(yArray));
         }
-        //Console.WriteLine(IsAnagram.IsItAnagram("listen", "silent"));
     }
 }
