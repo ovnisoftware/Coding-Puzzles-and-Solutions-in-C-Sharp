@@ -71,6 +71,7 @@
     <Compile Include="BitManipulation\IsEqualTests.cs" />
     <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />
     <Compile Include="BitManipulation\IsNegativeTests.cs" />
+    <Compile Include="BitManipulation\NumberOfOneBitsTests.cs" />
     <Compile Include="Math\AddDigitsTest.cs" />
     <Compile Include="Math\CheckPrimeTests.cs" />
     <Compile Include="Math\ClimbingStairsTests.cs" />

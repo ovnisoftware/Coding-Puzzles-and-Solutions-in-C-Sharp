@@ -54,6 +54,7 @@
     <Compile Include="BinaryTree\NodeBT.cs" />
     <Compile Include="BitManipulation\CheckParity.cs" />
     <Compile Include="BitManipulation\IsEqual.cs" />
+    <Compile Include="BitManipulation\NumberOfOneBits.cs" />
     <Compile Include="Games\DeckOfCards\Card.cs" />
     <Compile Include="Games\DeckOfCards\Deck.cs" />
     <Compile Include="Games\DeckOfCards\Suit.cs" />
