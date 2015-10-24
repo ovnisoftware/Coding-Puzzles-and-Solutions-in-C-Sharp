@@ -26,6 +26,5 @@ namespace CodingPuzzles
             //Check if the arrays are in the same order
             return (xArr.SequenceEqual(yArr));
         }
-        //Console.WriteLine(IsPermutation.PermutationCheck("cat","tac"));
     }
 }

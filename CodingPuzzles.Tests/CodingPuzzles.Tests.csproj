@@ -61,13 +61,16 @@
     <Compile Include="Array\MinMaxArraySwapTests.cs" />
     <Compile Include="Array\ReverseArrayTests.cs" />
     <Compile Include="Array\SortDescTests.cs" />
-    <Compile Include="Array\Array123Tests.cs" />
+    <Compile Include="Array\Contains123Tests.cs" />
     <Compile Include="Array\SubArraySumKTests.cs" />
     <Compile Include="Array\TargetSumTests.cs" />
     <Compile Include="Array\MergeSortedArraysTests.cs" />
+    <Compile Include="Array\RotateArrayLeftTests.cs" />
+    <Compile Include="Array\TransformArrayTests.cs" />
     <Compile Include="BitManipulation\CheckParityTests.cs" />
     <Compile Include="BitManipulation\IsEqualTests.cs" />
     <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />
+    <Compile Include="BitManipulation\IsNegativeTests.cs" />
     <Compile Include="Math\AddDigitsTest.cs" />
     <Compile Include="Math\CheckPrimeTests.cs" />
     <Compile Include="Math\ClimbingStairsTests.cs" />
@@ -83,6 +86,8 @@
     <Compile Include="StringManipulation\IsAnagramTests.cs" />
     <Compile Include="StringManipulation\IsIsomorphicTests.cs" />
     <Compile Include="StringManipulation\IsPalindromeTests.cs" />
+    <Compile Include="StringManipulation\IsPermutationTests.cs" />
+    <Compile Include="StringManipulation\LengthOfLastWordTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">

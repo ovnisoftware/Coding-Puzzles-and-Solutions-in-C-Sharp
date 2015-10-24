@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CodingPuzzles.Tests.Array
 {
     [TestClass]
-    public class Array123Tests
+    public class Contains123Tests
     {
         [TestMethod]
         public void Contains123_PassedArrayContaining123_ReturnsTrue()

@@ -40,7 +40,6 @@ namespace CodingPuzzles
                 length++;
             }
             return length;
-            //Console.WriteLine(LengthOfLastWord.GetLength("abc abc abc abce "));}
         }
     }
 }

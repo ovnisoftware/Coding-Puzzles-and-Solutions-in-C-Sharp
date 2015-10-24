@@ -15,7 +15,7 @@ namespace CodingPuzzles
             if (pivot == 0)
                 return x;
 
-            if (pivot > x.Length - 1)
+            if (pivot < 0 || pivot > x.Length - 1)
                 throw new Exception("Pivot out of range");
 
             //Rotate first half
@@ -42,9 +42,5 @@ namespace CodingPuzzles
             }
             return x;
         }
-        //int[] x = new int[] { 1, 2, 3, 4, 5 };
-        //x = RotateArrayLeft.Rotate(x, 2);
-        //foreach (int i in x)
-        //    Console.WriteLine(i);
     }
 }

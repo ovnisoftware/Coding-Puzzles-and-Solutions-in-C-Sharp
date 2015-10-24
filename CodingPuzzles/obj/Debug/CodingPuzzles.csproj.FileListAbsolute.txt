@@ -9,3 +9,4 @@ C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingP
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.pdb
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\bin\Debug\CodingPuzzles.exe
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\bin\Debug\CodingPuzzles.pdb
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.csprojResolveAssemblyReference.cache
