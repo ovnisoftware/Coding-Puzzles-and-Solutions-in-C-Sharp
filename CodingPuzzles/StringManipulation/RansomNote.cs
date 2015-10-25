@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace CodingPuzzles
 {
     //A ransom note can be formed by cutting characters out of a magazine to form a new sentence.
     //How would you figure out if a ransom note (represented as a string) can be formed
     //from a given magazine (string)?
-    public static class Ransom_Note
+    public static class RansomNote
     {
         //Character version
         public static bool RansomNoteCanBeFormedChars(string note, string mag)
@@ -83,12 +79,6 @@ namespace CodingPuzzles
             }
             return true;
         }
-
-        ////Call this in Program.cs to test
-        ////Output should be true
-        //string note = "aabb";
-        //string mag = "aaabb";
-        //Console.WriteLine(RansomNote.RansomNoteCanBeFormedChars(note, mag));
 
         ////Call in Program.cs to test
         ////Output should be true

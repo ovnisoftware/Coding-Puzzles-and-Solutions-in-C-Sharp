@@ -89,6 +89,10 @@
     <Compile Include="StringManipulation\IsPalindromeTests.cs" />
     <Compile Include="StringManipulation\IsPermutationTests.cs" />
     <Compile Include="StringManipulation\LengthOfLastWordTests.cs" />
+    <Compile Include="StringManipulation\LongestCommonPrefixTests.cs" />
+    <Compile Include="StringManipulation\RansomNoteTests.cs" />
+    <Compile Include="StringManipulation\RemoveCharsTests.cs" />
+    <Compile Include="StringManipulation\ReplaceSpaceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">

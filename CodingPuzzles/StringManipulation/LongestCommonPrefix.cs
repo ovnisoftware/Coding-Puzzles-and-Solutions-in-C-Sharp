@@ -44,7 +44,5 @@ namespace CodingPuzzles
             }
             return prefix;
         }
-        //string[] x = new string[] { "flower", "flow", "fello", "fleet" };
-        //Console.WriteLine(LongestCommonPrefix.FindPrefix1(x)); 
     }
 }

@@ -11,18 +11,16 @@ namespace CodingPuzzles
     //x = Regex.Replace(x, "[^{}\\][()]", "");
     public static class RemoveChars
     {
-        public static string Remove(string x)
+        public static string Remove(string input)
         {
             string result = "";
             char[] arr = new char[] { '[', '{', '(', ')', '}', ']' };
-            foreach (char c in arr)
+            foreach (char c in input)
             {
                 if (arr.Contains(c))
                     result += c.ToString();
             }
             return result;
         }
-        //string x = "(test)[1234]{testagain!}";
-        //Console.WriteLine(RemoveChars.Remove(x)); 
     }
 }
