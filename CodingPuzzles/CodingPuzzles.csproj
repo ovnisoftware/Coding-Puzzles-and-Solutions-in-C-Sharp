@@ -89,6 +89,7 @@
     <Compile Include="StringManipulation\IsPermutation.cs" />
     <Compile Include="StringManipulation\LengthOfLastWord.cs" />
     <Compile Include="StringManipulation\LongestCommonPrefix.cs" />
+    <Compile Include="StringManipulation\PasswordChecker.cs" />
     <Compile Include="StringManipulation\RansomNote.cs" />
     <Compile Include="StringManipulation\RemoveChars.cs" />
     <Compile Include="StringManipulation\ReplaceSpace.cs" />
