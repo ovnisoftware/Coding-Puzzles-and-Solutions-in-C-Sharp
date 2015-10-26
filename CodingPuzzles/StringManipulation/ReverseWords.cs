@@ -30,7 +30,5 @@ namespace CodingPuzzles
 
             return result.Trim();
         }
-        //string x = "   a  b   c   d    e   f   g  hij   k   l  m   no   p  ";
-        //Console.WriteLine(ReverseWords.Reverse(x));
     }
 }

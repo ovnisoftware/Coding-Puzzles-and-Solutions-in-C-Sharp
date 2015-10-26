@@ -93,7 +93,11 @@
     <Compile Include="StringManipulation\RansomNoteTests.cs" />
     <Compile Include="StringManipulation\RemoveCharsTests.cs" />
     <Compile Include="StringManipulation\ReplaceSpaceTests.cs" />
-    <Compile Include="StringManipulation\UnitTest1.cs" />
+    <Compile Include="StringManipulation\PasswordCheckerTests.cs" />
+    <Compile Include="StringManipulation\ReverseWordsTests.cs" />
+    <Compile Include="StringManipulation\SingleSpaceTests.cs" />
+    <Compile Include="StringManipulation\UniqueStringTests.cs" />
+    <Compile Include="StringManipulation\WordCountTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CodingPuzzles\CodingPuzzles.csproj">

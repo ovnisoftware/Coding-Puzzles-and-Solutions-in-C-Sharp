@@ -16,6 +16,10 @@ namespace CodingPuzzles
             //Trim whitespace from beginning and end of string
             x = x.Trim();
 
+            //Necessary because foreach will execute once with empty string returning 1
+            if (x == "")
+                return 0;
+
             //Ensure there is only one space between each word in the passed string
             while (x.Contains("  "))
                 x = x.Replace("  ", " ");
@@ -26,9 +30,5 @@ namespace CodingPuzzles
 
             return result;
         }
-        ////Call this in Program.cs to test
-        //string x = "   a  b   c   d    e   f   g  hij   k   l  m   no   p  ";
-        //Console.WriteLine(WordCount.Count(x));
-        ////Output should be 13
     }
 }

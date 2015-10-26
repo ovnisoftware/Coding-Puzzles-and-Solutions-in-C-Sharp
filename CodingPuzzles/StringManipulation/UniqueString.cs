@@ -28,6 +28,7 @@ namespace CodingPuzzles
         }
 
         //Compares each character to every other character without using an additional data structure
+        //O(n^2) time complexity
         public static bool IsUnique1(string s)
         {
             string temp1 = "";
@@ -39,7 +40,7 @@ namespace CodingPuzzles
                 for (int k = 0; k < s.Length; k++)
                 {
                     temp2 = s.Substring(k, 1);
-                    if (temp1 != temp2)
+                    if ((temp1 == temp2) && (i != k))
                         return false;
                 }
             }

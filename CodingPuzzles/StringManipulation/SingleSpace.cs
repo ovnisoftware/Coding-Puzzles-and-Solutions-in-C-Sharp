@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace CodingPuzzles
 {
     //Write a program that takes a string and outputs that same string with only one space between each word
-    class SingleSpace
+    public class SingleSpace
     {
         public static string ConvertToSingleSpace(string x)
         {

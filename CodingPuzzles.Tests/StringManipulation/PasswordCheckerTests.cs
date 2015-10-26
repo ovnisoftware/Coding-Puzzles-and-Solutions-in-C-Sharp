@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace CodingPuzzles.Tests.StringManipulation
 {
     [TestClass]
-    public class UnitTest1
+    public class PasswordCheckerTests
     {
         [TestMethod]
         public void CheckPassword_TooLong_ReturnsFalse()
