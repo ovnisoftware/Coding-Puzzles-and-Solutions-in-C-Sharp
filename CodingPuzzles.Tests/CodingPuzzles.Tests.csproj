@@ -72,6 +72,7 @@
     <Compile Include="BitManipulation\IsPowerOf2Tests.cs" />
     <Compile Include="BitManipulation\IsNegativeTests.cs" />
     <Compile Include="BitManipulation\NumberOfOneBitsTests.cs" />
+    <Compile Include="BitManipulation\BinaryCountTests.cs" />
     <Compile Include="BitManipulation\XORSwapTests.cs" />
     <Compile Include="Math\AddDigitsTest.cs" />
     <Compile Include="Math\CheckPrimeTests.cs" />

@@ -48,6 +48,7 @@
     <Compile Include="Array\RotateArrayLeft.cs" />
     <Compile Include="Array\SubArraySumK.cs" />
     <Compile Include="BinaryTree\BinarySearchTree.cs" />
+    <Compile Include="BitManipulation\BinaryCount.cs" />
     <Compile Include="BitManipulation\IsNegative.cs" />
     <Compile Include="BitManipulation\IsPowerOf2.cs" />
     <Compile Include="BinaryTree\MinMax.cs" />
