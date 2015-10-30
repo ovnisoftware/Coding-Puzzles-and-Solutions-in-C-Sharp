@@ -12,6 +12,9 @@ namespace CodingPuzzles
     {
         public static bool IsPatternMatch(string pattern, string words)
         {
+            if ((pattern == "") && (words == ""))
+                return true;
+
             //Transform pattern into int array Ex. abba becomes 1221
             int[] patternArr = new int[pattern.Length];
             for (int i = 0; i < pattern.Length; i++)

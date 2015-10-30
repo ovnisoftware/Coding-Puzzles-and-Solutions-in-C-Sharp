@@ -22,19 +22,5 @@ namespace CodingPuzzles
 
             return temp;
         }
-
-        //This method reverses the stack it is passed and returns void
-        public static void Reverse1(Stack input)
-        {
-            ArrayList a = new ArrayList();
-
-            while (input.Count != 0)
-                a.Add(input.Pop());
-
-            int length = a.Count - 1;
-
-            for (int i = length; i >= 0; i--)
-                input.Push(a[i]);
-        }
     }
 }
