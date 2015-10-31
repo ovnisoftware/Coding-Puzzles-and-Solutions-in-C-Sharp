@@ -35,8 +35,8 @@ namespace CodingPuzzles
         //Any power of 2 in binary is a 1 followed by 0's
         //One less than any power of 2 is a 0 followed by all 1's
         //& computes the logical bitwise AND of its operands.
-        //8 (1000) & 7 (0001)
-        //1000 & 0001 = 0000
+        //8 (1000) & 7 (0111)
+        //1000 & 0111 = 0000
         public static bool IsPowerB(int x)
         {
             //0 will return true if you don't check it explicitly because 0 in binary is still 0
