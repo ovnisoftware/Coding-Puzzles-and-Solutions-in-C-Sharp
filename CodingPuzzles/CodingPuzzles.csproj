@@ -100,6 +100,7 @@
     <Compile Include="Array\ReverseArray.cs" />
     <Compile Include="Stack\ReverseStack.cs" />
     <Compile Include="Stack\ReverseStringWithStack.cs" />
+    <Compile Include="StringManipulation\ReverseString.cs" />
     <Compile Include="StringManipulation\ReverseWords.cs" />
     <Compile Include="StringManipulation\SingleSpace.cs" />
     <Compile Include="Array\SortDesc.cs" />
