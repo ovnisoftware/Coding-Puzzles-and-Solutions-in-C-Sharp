@@ -101,6 +101,7 @@
     <Compile Include="StringManipulation\ReverseWordsTests.cs" />
     <Compile Include="StringManipulation\SingleSpaceTests.cs" />
     <Compile Include="StringManipulation\UniqueStringTests.cs" />
+    <Compile Include="StringManipulation\ReverseStringTests.cs" />
     <Compile Include="StringManipulation\WordPatternTests.cs" />
     <Compile Include="StringManipulation\WordCountTests.cs" />
   </ItemGroup>
