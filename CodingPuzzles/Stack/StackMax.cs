@@ -29,8 +29,5 @@ namespace CodingPuzzles
             }
             return result;
         }
-        ////Output should be 202
-        //Stack s = new Stack(new [] { 1, 32, 3, 4, 202, 29 });
-        //Console.WriteLine(StackMax.GetMax(s));
     }
 }
