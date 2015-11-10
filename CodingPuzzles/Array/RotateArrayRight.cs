@@ -6,17 +6,16 @@ using System.Threading.Tasks;
 
 namespace CodingPuzzles
 {
-    public static class RotateArrayLeft
+    public static class RotateArrayRight
     {
-        //Rotate array to the left given a pivot
-        //Source: http://www.mycodeschool.com/problems/rotate-a-list
+        //Rotate array to the right of a given pivot
+        //Source: http://www.programcreek.com/2015/03/rotate-array-in-java/
         public static int[] Rotate(int[] x, int pivot)
         {
-            if (pivot == 0)
-                return x;
+            if (pivot < 0 || x == null)
+                throw new Exception("Invalid argument");
 
-            if (pivot < 0 || pivot > x.Length - 1)
-                throw new Exception("Pivot out of range");
+            pivot = pivot % x.Length;
 
             //Rotate first half
             x = RotateSub(x, 0, pivot - 1);

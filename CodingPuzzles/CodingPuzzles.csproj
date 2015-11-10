@@ -45,7 +45,7 @@
     <Compile Include="Array\Contains123.cs" />
     <Compile Include="Array\MergeSortedArrays.cs" />
     <Compile Include="Array\MoveZeros.cs" />
-    <Compile Include="Array\RotateArrayLeft.cs" />
+    <Compile Include="Array\RotateArrayRight.cs" />
     <Compile Include="Array\SubArraySumK.cs" />
     <Compile Include="BinaryTree\BinarySearchTree.cs" />
     <Compile Include="BitManipulation\BinaryCount.cs" />

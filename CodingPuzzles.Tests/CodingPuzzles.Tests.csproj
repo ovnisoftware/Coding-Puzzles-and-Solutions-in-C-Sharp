@@ -65,7 +65,7 @@
     <Compile Include="Array\SubArraySumKTests.cs" />
     <Compile Include="Array\TargetSumTests.cs" />
     <Compile Include="Array\MergeSortedArraysTests.cs" />
-    <Compile Include="Array\RotateArrayLeftTests.cs" />
+    <Compile Include="Array\RotateArrayRightTests.cs" />
     <Compile Include="Array\TransformArrayTests.cs" />
     <Compile Include="BitManipulation\CheckParityTests.cs" />
     <Compile Include="BitManipulation\IsEqualTests.cs" />
