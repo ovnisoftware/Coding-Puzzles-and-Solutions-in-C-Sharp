@@ -28,8 +28,5 @@ namespace CodingPuzzles
 
             return output;
         }
-        ////Call this in Program.cs to test
-        //Console.WriteLine(ReverseStringWithStack.Reverse("abcde"));
-        ////Output should be "edcba"
     }
 }
