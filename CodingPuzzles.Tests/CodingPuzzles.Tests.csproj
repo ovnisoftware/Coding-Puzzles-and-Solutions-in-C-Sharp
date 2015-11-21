@@ -89,6 +89,7 @@
     <Compile Include="StackTests\ReverseStackTests.cs" />
     <Compile Include="StackTests\StackMaxTests.cs" />
     <Compile Include="StackTests\ReverseStringWithStackTests.cs" />
+    <Compile Include="StackTests\MinStackTests.cs" />
     <Compile Include="StringManipulation\BalancedDelimitersTests.cs" />
     <Compile Include="StringManipulation\IsAnagramTests.cs" />
     <Compile Include="StringManipulation\IsIsomorphicTests.cs" />

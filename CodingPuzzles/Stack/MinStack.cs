@@ -31,8 +31,8 @@ namespace CodingPuzzles
             }
             else
             {
-                if (head.Data <= listOfMins.Peek())
-                    listOfMins.Push(head.Data);
+                if (x < listOfMins.Peek())
+                    listOfMins.Push(x);
                 else
                     listOfMins.Push(listOfMins.Peek());
                 n.Next = head;
@@ -56,18 +56,5 @@ namespace CodingPuzzles
                 throw new Exception("Empty Stack");
             return listOfMins.Peek();
         }
-        //MinStack s = new MinStack();
-        //s.Push(1);
-        //s.Push(2);
-        //s.Push(-5);
-        //s.Push(-10);
-        //Console.WriteLine(s.GetMin());
-        //Console.WriteLine(s.Pop());
-        //Console.WriteLine(s.GetMin());
-        //Console.WriteLine(s.Pop());
-        //Console.WriteLine(s.GetMin());
-        //Console.WriteLine(s.Pop());
-        //Console.WriteLine(s.GetMin());
-        //Console.WriteLine(s.Pop());
     }
 }
