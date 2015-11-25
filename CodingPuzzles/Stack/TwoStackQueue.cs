@@ -55,7 +55,7 @@ namespace CodingPuzzles
 
     //More efficient implementation which only shifts elements from new stack to old stack when the old stack is empty
     //Source: Cracking Coding Interview Fifth Edition p. 81
-    public class Two_Stack_Queue2
+    public class TwoStackQueue2
     {
         Stack<string> stackNew = new Stack<string>();
         Stack<string> stackOld = new Stack<string>();
