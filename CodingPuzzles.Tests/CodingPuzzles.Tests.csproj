@@ -78,6 +78,7 @@
     <Compile Include="Math\CheckPrimeTests.cs" />
     <Compile Include="Math\ClimbingStairsTests.cs" />
     <Compile Include="Math\Converter\IntToWordsTests.cs" />
+    <Compile Include="Math\Converter\BinaryToDecimalTests.cs" />
     <Compile Include="Math\DiceTests.cs" />
     <Compile Include="Math\ClockAngleTests.cs" />
     <Compile Include="Math\FactorialIterativeTests.cs" />
