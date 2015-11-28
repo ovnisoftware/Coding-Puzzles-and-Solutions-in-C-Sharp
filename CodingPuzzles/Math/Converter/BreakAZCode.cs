@@ -79,10 +79,4 @@ namespace CodingPuzzles
             { "26", 'z' }
         };
     }
-    //string s = "test";
-    //Console.WriteLine("Original: " + s);
-    //s = BreakCode.Encode(s);
-    //Console.WriteLine("Encoded: " + s);
-    //s = BreakCode.Decode(s);
-    //Console.WriteLine("Decoded: " + s);
 }
