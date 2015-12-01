@@ -14,9 +14,12 @@ namespace CodingPuzzles
     {
         public static int GetRemainder(int x, int y)
         {
-            if ((y == 0) || (x < y))
-                //You could alternatively throw an exception here  //throw new NotImplementedException();
-                return -1;
+            if (y == 0)
+                throw new Exception("Can not divide by zero");
+
+            if (x < y)
+                throw new Exception("Number being divided (dividend) can not be less than the divisor");
+
             else
                 return (x % y);
         }
