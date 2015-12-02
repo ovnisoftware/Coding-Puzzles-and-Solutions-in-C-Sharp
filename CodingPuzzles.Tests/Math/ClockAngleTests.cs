@@ -26,5 +26,33 @@ namespace CodingPuzzles.Tests.Math
         {
             Assert.AreEqual(37.5, ClockAngle.GetClockAngle(4, 15));
         }
+        [TestMethod]
+        public void GetClockAngle_PassednegativeHour_ThrowsException()
+        {
+            Exception exception = null;
+            try
+            {
+                ClockAngle.GetClockAngle(-5,30);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            Assert.IsNotNull(exception);
+        }
+        [TestMethod]
+        public void GetClockAngle_PassednegativeMinute_ThrowsException()
+        {
+            Exception exception = null;
+            try
+            {
+                ClockAngle.GetClockAngle(5, -30);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            Assert.IsNotNull(exception);
+        }
     }
 }

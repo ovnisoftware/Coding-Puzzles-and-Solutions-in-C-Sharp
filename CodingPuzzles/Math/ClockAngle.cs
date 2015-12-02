@@ -12,6 +12,12 @@ namespace CodingPuzzles
     {
         public static double GetClockAngle(double hr, double min)
         {
+            if ((hr < 0) | (hr > 12))
+                throw new Exception("Invalid number of hours");
+
+            if ((min < 0) | (min > 60))
+                throw new Exception("Invalid number of minutes");
+
             //Calculate hour position between the current hour and the next hour
             double hrAngle = 0;
             if (hr == 12)
