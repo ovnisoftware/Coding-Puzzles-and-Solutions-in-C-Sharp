@@ -31,8 +31,5 @@ namespace CodingPuzzles
             int result = Convert.ToInt32(strAnswer);
             return ++result;
         }
-
-        //Console.WriteLine(PlusOne.AddOne(9,9,9));
-        //Console.WriteLine(PlusOne.AddOne1(9,9,9));
     }
 }

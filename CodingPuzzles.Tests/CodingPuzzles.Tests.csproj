@@ -90,6 +90,7 @@
     <Compile Include="Math\Matrix\TicTacToeWinnerTests.cs" />
     <Compile Include="Math\ReverseIntegerTests.cs" />
     <Compile Include="Math\ReturnRemainderTests.cs" />
+    <Compile Include="Math\PlusOneTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StackTests\ReverseStackTests.cs" />
     <Compile Include="StackTests\StackMaxTests.cs" />
