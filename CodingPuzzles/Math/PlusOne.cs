@@ -13,6 +13,8 @@ namespace CodingPuzzles
         //Multiplying each digit in array by 10^x, summing them and adding 1 
         public static int AddOne(params int[] x)
         {
+            if ((x.Length == 0) || (x == null))
+                throw new Exception("Invalid input");
             int result = 0;
             for (int i = 0; i < x.Length; i++)
             {

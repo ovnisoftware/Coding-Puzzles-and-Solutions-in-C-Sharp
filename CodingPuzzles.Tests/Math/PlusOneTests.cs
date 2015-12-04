@@ -21,5 +21,33 @@ namespace CodingPuzzles.Tests.Math
         {
             Assert.AreEqual(1000, PlusOne.AddOne(9,9,9));
         }
+        [TestMethod]
+        public void AddOne_Passnull_ThrowsException()
+        {
+            Exception exception = null;
+            try
+            {
+                PlusOne.AddOne(null);
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            Assert.IsNotNull(exception);
+        }
+        [TestMethod]
+        public void AddOne_PassNothing_ThrowsException()
+        {
+            Exception exception = null;
+            try
+            {
+                PlusOne.AddOne();
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            Assert.IsNotNull(exception);
+        }
     }
 }
