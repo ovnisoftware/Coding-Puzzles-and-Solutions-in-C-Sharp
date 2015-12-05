@@ -49,5 +49,17 @@ namespace CodingPuzzles.Tests.Math
             }
             Assert.IsNotNull(exception);
         }
+
+        //AddOne1 tests
+        [TestMethod]
+        public void AddOne1_Pass123_Returns124()
+        {
+            Assert.AreEqual(124, PlusOne.AddOne1(1, 2, 3));
+        }
+        [TestMethod]
+        public void AddOne1_Pass1_Returns2()
+        {
+            Assert.AreEqual(2, PlusOne.AddOne1(1));
+        }
     }
 }
