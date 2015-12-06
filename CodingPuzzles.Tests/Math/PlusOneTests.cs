@@ -61,5 +61,10 @@ namespace CodingPuzzles.Tests.Math
         {
             Assert.AreEqual(2, PlusOne.AddOne1(1));
         }
+        [TestMethod]
+        public void AddOne1_Pass999_Returns1000()
+        {
+            Assert.AreEqual(1000, PlusOne.AddOne1(9, 9, 9));
+        }
     }
 }
