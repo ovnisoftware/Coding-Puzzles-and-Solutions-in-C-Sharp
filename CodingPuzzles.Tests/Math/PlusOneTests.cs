@@ -80,5 +80,19 @@ namespace CodingPuzzles.Tests.Math
             }
             Assert.IsNotNull(exception);
         }
+        [TestMethod]
+        public void AddOne1_PassNothing_ThrowsException()
+        {
+            Exception exception = null;
+            try
+            {
+                PlusOne.AddOne1();
+            }
+            catch (Exception ex)
+            {
+                exception = ex;
+            }
+            Assert.IsNotNull(exception);
+        }
     }
 }
