@@ -72,6 +72,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(1000, PlusOne.AddOne1(9, 9, 9));
         }
         [TestMethod]
+        public void AddOne1_Pass1234_Returns1235()
+        {
+            Assert.AreEqual(1235, PlusOne.AddOne1(1, 2, 3, 4));
+        }
+        [TestMethod]
         public void AddOne1_Passnull_ThrowsException()
         {
             Exception exception = null;
