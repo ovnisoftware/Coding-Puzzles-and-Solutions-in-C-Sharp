@@ -12,6 +12,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(0, ReturnRemainder.GetRemainder(10, 2));
         }
         [TestMethod]
+        public void GetRemainder_Pass100and2_Returns0()
+        {
+            Assert.AreEqual(0, ReturnRemainder.GetRemainder(100, 2));
+        }
+        [TestMethod]
         public void GetRemainder_Pass10and3_Returns1()
         {
             Assert.AreEqual(1, ReturnRemainder.GetRemainder(10, 3));
