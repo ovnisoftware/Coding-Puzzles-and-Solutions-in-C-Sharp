@@ -22,6 +22,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(1, ReturnRemainder.GetRemainder(10, 3));
         }
         [TestMethod]
+        public void GetRemainder_Pass10and10_Returns0()
+        {
+            Assert.AreEqual(0, ReturnRemainder.GetRemainder(10, 10));
+        }
+        [TestMethod]
         public void GetRemainder_DivideByZero_ThrowsException()
         {
             Exception exception = null;
