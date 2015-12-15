@@ -16,6 +16,11 @@ namespace CodingPuzzles.Tests.Math
         {
             Assert.AreEqual(1, ReverseInteger.Reverse(10));
         }
+        [TestMethod]
+        public void Reverse_Passed100_Returns1()
+        {
+            Assert.AreEqual(1, ReverseInteger.Reverse(100));
+        }
 
         [TestMethod]
         public void Reverse_Passed123_Returns321()
