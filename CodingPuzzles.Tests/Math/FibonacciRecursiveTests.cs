@@ -17,6 +17,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(1, FibonacciRecursive.GetFibonacci(1));
         }
         [TestMethod]
+        public void GetFibonacci_Passed2_Returns1()
+        {
+            Assert.AreEqual(1, FibonacciRecursive.GetFibonacci(1));
+        }
+        [TestMethod]
         public void GetFibonacci_Passed3_Returns2()
         {
             Assert.AreEqual(2, FibonacciRecursive.GetFibonacci(3));
