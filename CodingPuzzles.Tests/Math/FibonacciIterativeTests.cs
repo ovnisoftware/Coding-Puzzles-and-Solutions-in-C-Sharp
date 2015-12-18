@@ -22,6 +22,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(2, FibonacciIterative.GetFibonacci(3));
         }
         [TestMethod]
+        public void GetFibonacci_Passed2_Returns1()
+        {
+            Assert.AreEqual(1, FibonacciIterative.GetFibonacci(2));
+        }
+        [TestMethod]
         public void GetFibonacci_Passed0_ThrowsExecption()
         {
             Exception exception = null;
