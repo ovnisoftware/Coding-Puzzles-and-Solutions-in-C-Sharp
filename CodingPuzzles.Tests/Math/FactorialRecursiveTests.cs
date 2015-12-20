@@ -17,6 +17,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(1, FactorialRecursive.GetFactorial(0));
         }
         [TestMethod]
+        public void GetFactorial_Passed2_Returns2()
+        {
+            Assert.AreEqual(2, FactorialRecursive.GetFactorial(2));
+        }
+        [TestMethod]
         public void GetFactorial_Passed1_Returns1()
         {
             Assert.AreEqual(1, FactorialRecursive.GetFactorial(1));
