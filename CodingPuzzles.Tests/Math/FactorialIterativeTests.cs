@@ -17,6 +17,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(1, Factorial.GetFactorial(0));
         }
         [TestMethod]
+        public void GetFactorial_Passed1_Returns1()
+        {
+            Assert.AreEqual(1, Factorial.GetFactorial(1));
+        }
+        [TestMethod]
         public void GetFactorial_PassedNegative5_ThrowsException()
         {
             Exception exception = null;
