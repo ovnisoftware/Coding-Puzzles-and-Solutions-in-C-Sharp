@@ -22,6 +22,11 @@ namespace CodingPuzzles.Tests.Math
             Assert.AreEqual(1, Factorial.GetFactorial(1));
         }
         [TestMethod]
+        public void GetFactorial_Passed2_Returns2()
+        {
+            Assert.AreEqual(2, Factorial.GetFactorial(2));
+        }
+        [TestMethod]
         public void GetFactorial_PassedNegative5_ThrowsException()
         {
             Exception exception = null;
