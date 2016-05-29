@@ -20,8 +20,7 @@ namespace CodingPuzzles
             if (x < y)
                 throw new Exception("Number being divided (dividend) can not be less than the divisor");
 
-            else
-                return (x % y);
+            return (x % y);
         }
     }
 }

@@ -22,7 +22,7 @@ namespace CodingPuzzles
             //Compares first to last character in string, moving inward with each iteration
             for (int i = 0; i < x.Length - 1 - i; i++)
             {
-                if (x[i].ToString() != x[x.Length - 1 - i].ToString())
+                if (x[i] != x[x.Length - 1 - i])
                     return false;
             }
             return true;

@@ -5,8 +5,8 @@ c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzle
 c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\obj\Debug\CodingPuzzles.exe
 c:\users\tester\documents\visual studio 2013\Projects\CodingPuzzles\CodingPuzzles\obj\Debug\CodingPuzzles.pdb
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\bin\Debug\CodingPuzzles.exe.config
-C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.exe
-C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.pdb
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\bin\Debug\CodingPuzzles.exe
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\bin\Debug\CodingPuzzles.pdb
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.exe
+C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.pdb
 C:\Users\tester\Documents\GitHub\Coding-Puzzles-and-Solutions-in-C-Sharp\CodingPuzzles\obj\Debug\CodingPuzzles.csprojResolveAssemblyReference.cache

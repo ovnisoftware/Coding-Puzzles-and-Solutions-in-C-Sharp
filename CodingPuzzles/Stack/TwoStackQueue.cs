@@ -34,10 +34,6 @@ namespace CodingPuzzles
 
             string result = stack2.Pop();
 
-            //Handles case where stack1 only contained one element
-            if (stack2.Count == 0)
-                return result;
-
             while (stack2.Count != 0)
                 stack1.Push(stack2.Pop());
 
