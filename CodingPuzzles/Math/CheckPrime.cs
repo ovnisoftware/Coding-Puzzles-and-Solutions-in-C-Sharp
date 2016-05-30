@@ -18,13 +18,17 @@ namespace CodingPuzzles
             if (x < 2)
                 return false;
 
-            //Start loop at 2 since we don't need to check the 1 case (since all numbers are divisible by 1)
-            //loop (i < x) times instead of (i <= x) times because (x % x) will return zero
-            for (int i = 2; i < x; i++)
+            //Even number test
+            if ((x % 2 == 0) && (x != 2))
+                return false;
+
+            //Only check odd numbers
+            for (int i = 3; i < x; i += 2)
             {
-                if ((x % i) == 0)
+                if (x % i == 0)
                     return false;
             }
+
             return true;
         }
     }
