@@ -56,6 +56,7 @@
     <Compile Include="BitManipulation\CheckParity.cs" />
     <Compile Include="BitManipulation\IsEqual.cs" />
     <Compile Include="BitManipulation\NumberOfOneBits.cs" />
+    <Compile Include="BitManipulation\AddBinary.cs" />
     <Compile Include="BitManipulation\XORSwap.cs" />
     <Compile Include="Games\DeckOfCards\Card.cs" />
     <Compile Include="Games\DeckOfCards\Deck.cs" />
