@@ -22,5 +22,36 @@ namespace CodingPuzzles
             //convert result to binary
             return Convert.ToString(result, 2);
         }
+
+        public static string Sum2(string x, string y)
+        {
+            //convert x to int
+            int xVal = 0;
+            for (int i = 0; i < x.Length; i++)
+            {
+                if (x[i] == '1')
+                    xVal += (int)Math.Pow(2, x.Length - 1 - i);
+            }
+
+            //convert y to int
+            int yVal = 0;
+            for (int i = 0; i < y.Length; i++)
+            {
+                if (y[i] == '1')
+                    yVal += (int)Math.Pow(2, x.Length - 1 - i);
+            }
+
+            int result = xVal + yVal;
+
+            //Convert result to binary
+            string resultBinary = "";
+            while (result > 0)
+            {
+                int remainder = result % 2;
+                result = result >> 1;
+                resultBinary = remainder.ToString() + resultBinary;
+            }
+            return resultBinary;
+        }
     }
 }
