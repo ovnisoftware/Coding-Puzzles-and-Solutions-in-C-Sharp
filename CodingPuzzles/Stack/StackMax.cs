@@ -13,8 +13,8 @@ namespace CodingPuzzles
         public static int GetMax(Stack s)
         {
             //throw exception if an empty stack is passed
-            if (s.Count == 0)
-                throw new Exception();
+            if ((s.Count == 0) || (s == null))
+                throw new Exception("Empty Stack");
 
             //Create a copy of the stack so the original remains intact
             Stack temp = new Stack(new Stack(s));
