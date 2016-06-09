@@ -9,67 +9,74 @@ namespace CodingPuzzles
     //Write a function to determine if a TicTacToe board (3x3 board implemented as a 2D array) has a winner
     public class TicTacToeWinner
     {
-        public static bool IsWinner(int[,] x)
+        public static bool IsWinner(int[,] board)
         {
-            bool result = false;
-            for (int i = 0; i < x.GetUpperBound(0); i++)
+            //bool result = false;
+            //Check that board only contains 1's and 0's
+            for (int i = 0; i < board.GetUpperBound(0); i++)
             {
-                for (int k = 0; k < x.GetUpperBound(0); k++)
+                for (int k = 0; k < board.GetUpperBound(0); k++)
                 {
-                    if ((x[i, k] != 0) && (x[i, k] != 1))
+                    if ((board[i, k] != 0) && (board[i, k] != 1))
                         throw new Exception("Invalid board, values must be only 1 or 0");
                 }
             }
 
-
-            //Checks for 3 x's straight across (3 cases)
-            for (int i = 0; i < x.GetUpperBound(0); i++)
+            int count = 0;
+            //Check rows
+            for (int i = 0; i < board.GetLength(0); i++)
             {
-                if (result)
-                    return result;
-
-                result = true;
-                for (int k = 0; k < x.GetUpperBound(0); k++)
+                count = 0;
+                for (int k = 0; k < board.GetLength(0); k++)
                 {
-                    if (x[i, k] == 0)
-                        result = false;
+                    if (board[i, k] == 1)
+                    {
+                        count++;
+                        if (count == 3)
+                            return true;
+                    }
                 }
             }
 
-            //Checks for 3 x's straight down (3 cases)
-            for (int i = 0; i < x.GetUpperBound(0); i++)
+            //Check columns
+            for (int i = 0; i < board.GetLength(0); i++)
             {
-                if (result)
-                    return result;
-
-                result = true;
-                for (int k = 0; k < x.GetUpperBound(0); k++)
+                count = 0;
+                for (int k = 0; k < board.GetLength(0); k++)
                 {
-                    if (x[k, i] == 0)
-                        result = false;
+                    if (board[k, i] == 1)
+                    {
+                        count++;
+                        if (count == 3)
+                            return true;
+                    }
                 }
             }
 
-            //Checks for diagonal case #1
-            result = true;
-            for (int i = 0; i < x.GetUpperBound(0); i++)
+            //Check first diagonal
+            count = 0;
+            for (int i = 0; i < board.GetLength(0); i++)
             {
-                if (x[i, i] == 0)
-                    result = false;
+                if (board[i, i] == 1)
+                {
+                    count++;
+                    if (count == 3)
+                        return true;
+                }
             }
-            if (result)
-                return result;
 
-            //Checks for diagonal case #2
-            result = true;
-            for (int i = 0; i < x.GetUpperBound(0); i++)
+            //check second diagonal
+            count = 0;
+            for (int i = 0; i < board.GetLength(0); i++)
             {
-                if (x[i, x.GetUpperBound(0) - i] == 0)
-                    result = false;
+                if (board[i, board.GetLength(0) - i - 1] == 1)
+                {
+                    count++;
+                    if (count == 3)
+                        return true;
+                }
             }
-            if (result)
-                return result;
-            return result;
+            return false;
         }
     }
 }

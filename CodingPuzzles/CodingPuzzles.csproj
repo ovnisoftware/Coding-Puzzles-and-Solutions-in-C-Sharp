@@ -115,6 +115,7 @@
     <Compile Include="StringManipulation\UniqueString.cs" />
     <Compile Include="StringManipulation\WordCount.cs" />
     <Compile Include="StringManipulation\WordPattern.cs" />
+    <Compile Include="test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
